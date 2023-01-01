@@ -1,1 +1,0 @@
-import{a as e,o as t,b as n,e as u,F as d,f as i}from"./entry.7df58e33.js";const m={name:"Button"},$={class:"bg-blue-500"};function f(o,s,c,a,_,r){return t(),n("button",$,"Test")}const l=e(m,[["render",f]]),x={name:"index"},h=i("h2",null,"Home",-1);function B(o,s,c,a,_,r){const p=l;return t(),n(d,null,[h,u(p)],64)}const g=e(x,[["render",B]]);export{g as default};
