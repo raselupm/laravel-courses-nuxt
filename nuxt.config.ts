@@ -1,4 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    ssr: false,
+    "nitro": {
+        "output": {
+            dir: 'output',
+            serverDir: 'output/server',
+            publicDir: 'output/public'
+        }
+    }
 })
